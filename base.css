@@ -1,0 +1,21 @@
+body {
+  background: url(seattle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.name {
+  font-size: 8em;
+  color: white;
+  font-family: Verdana;
+  text-align: center;
+}
+.direction li {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.direction li a {
+  display block;
+}
