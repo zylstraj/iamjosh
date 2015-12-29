@@ -8,16 +8,18 @@ body {
 .name {
   font-size: 4em;
   color: white;
-  font-family: Georgia, Verdana;
+  font-family: 'Josefin Slab', Georgia, Verdana;
   text-align: center;
 }
 .direction li {
   display: inline-block;
   text-decoration: none;
   color: white;
-  margin: 2em;
-  font-size: 1.5em;
-  font-family: Georgia;
+  margin: .5em 2em;
+  font-size: 2em;
+  letter-spacing: .2em;
+  font-family: 'Josefin Slab', Georgia;
+  text-transform: uppercase;
 }
 .direction li a {
   color: white;
@@ -31,4 +33,18 @@ a:visited {
 }
 .direction {
   text-align: center;
+}
+.contact {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 2em 2em .5em 2em;
+  font-size: 2em;
+  letter-spacing: .2em;
+  font-family: 'Josefin Slab', Georgia;
+  text-transform: uppercase;
+}
+.contact_icon {
+  text-align: center;
+  margin-bottom: 2.5em;
 }
