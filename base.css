@@ -6,16 +6,29 @@ body {
   background-size: cover;
 }
 .name {
-  font-size: 8em;
+  font-size: 4em;
   color: white;
-  font-family: Verdana;
+  font-family: Georgia, Verdana;
   text-align: center;
 }
 .direction li {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: white;
+  margin: 2em;
+  font-size: 1.5em;
+  font-family: Georgia;
 }
 .direction li a {
-  display block;
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+.direction li a:hover {
+  color: #6495ED;
+}
+.direction {
+  text-align: center;
 }
