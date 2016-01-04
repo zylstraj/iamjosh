@@ -1,10 +1,17 @@
+/* BASE CSS */
+
 body {
-  background: url(seattle1.jpg) no-repeat center center fixed;
+  background: url(Images/seattle1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* INDEX HTML PAGE */
+
+/* Got replaced with LOGO Image as of right now
+
 .name {
   font-size: 4em;
   color: white;
@@ -12,6 +19,7 @@ body {
   text-align: center;
   margin: 1em 0 2em 0;
 }
+*/
 .direction li {
   display: inline-block;
   text-decoration: none;
@@ -21,6 +29,7 @@ body {
   letter-spacing: .2em;
   font-family: 'Josefin Slab', Georgia;
   text-transform: uppercase;
+  text-align: center;
 }
 .direction li a {
   color: white;
@@ -35,12 +44,15 @@ a:visited {
 .direction {
   text-align: center;
 }
+
+/* CONTACT PAGE */
+
 .contact {
   text-decoration: none;
   color: white;
   font-size: 1.5em;
-  letter-spacing: .1em;
-  font-family: 'Josefin Slab', Georgia;
+  letter-spacing: .25em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Georgia;
   margin: 1em 0 .5em 0;
   text-transform: uppercase;
   text-align: center;
@@ -52,11 +64,91 @@ a:visited {
   text-align: center;
   margin-bottom: 2.5em;
 }
+.contact_icon a {
+  text-decoration: none;
+}
+/* Index Logo Positioning. On every page */
+
 .index_logo {
   text-align: center;
   margin: 2em 0 4em 0;
 }
-.contact_logo {
+
+/* ABOUT PAGE */
+.skill_list {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Georgia;
   text-align: center;
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
+}
+
+/* Paragraph on About Page */
+
+.about_aboutme {
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Georgia;
+  margin: 1em 1.5em 5em 1.5em;
+}
+
+.about_info {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+.about_info li {
+  text-decoration: none;
+}
+.photo_list {
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+/* Currently Removed Sections. Trying to work in photos */
+
+/*
+.about_skills {
+  color: white;
+  font-size: 2.5em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Sans-serif;
+  margin: 1em 0 .5em 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about_list_header {
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Georgia;
+  margin: 1em 0 .5em 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about_paragraph_header {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Sans-serif;
+  margin: 1em 0 .5em 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+*/
+
+
+
+/* Work.html Page */
+
+.work_info {
+   color: white;
+  font-size: 1.25em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Slab', 'Quicksand Light', 'Quicksand', Georgia;
+  margin: 1em 1.5em .5em 1.5em;
+  text-transform: uppercase;
+  text-align: center;
 }
