@@ -106,8 +106,13 @@ a:visited {
   text-align: center;
   margin: 1em 0 1em 0;
 }
-
-
+.imjosh {
+  text-align: center;
+  margin: 0 0 2em 0;
+}
+.about_josh {
+  margin: 0 0 6em 0;
+}
 /* Currently Removed Sections. Trying to work in photos */
 
 /*
