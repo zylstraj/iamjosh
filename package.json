@@ -1,0 +1,24 @@
+{
+  "name": "iamjosh",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zylstraj/iamjosh.git"
+  },
+  "keywords": [
+    "work",
+    "about",
+    "contact"
+  ],
+  "author": "Josh Zylstra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zylstraj/iamjosh/issues"
+  },
+  "homepage": "https://github.com/zylstraj/iamjosh#readme"
+}
